@@ -19,7 +19,7 @@ public:
 	virtual bool tag_valid(char flag);
 	static void adauga_probleme(char nume[256], char flg[64], int mnhrs, char materials[256] = "\n");
 	friend istream & operator>>(istream&,componente&);
-    friend ostream & operator<<(ostream&,componente&);
+        friend ostream & operator<<(ostream&,componente&);
 };
 
 class frane: public componente<frane>
